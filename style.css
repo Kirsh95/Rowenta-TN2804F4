@@ -1,0 +1,400 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .rowenta_tn img {
+    margin: 0;
+  }
+  .rowenta_tn p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #221F1F;
+
+  }
+
+  .rowenta_tn h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+  .rowenta_tn ul {
+    list-style: none;
+    margin: 0;
+  }
+  .rowenta_tn ul li {
+    line-height: normal;
+  }
+  .rowenta_tn {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .rowenta_tn ul {
+    padding: 0;
+  }
+  .rowenta_tn ul li {
+    padding: 0;
+  }
+  .rowenta_tn div {
+    padding: 0;
+  }
+  div.rowenta_tn {
+    padding: 0;
+  }
+  .rowenta_tn br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+  .rowenta_tn{
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .rowenta_tn img{
+    width: 100%;
+    height: auto;
+  }
+
+/* for_beard */
+
+
+
+.rowenta_tn .for_beard{
+    padding: 57px 16px 0;
+    
+
+}
+
+.rowenta_tn .for_beard .for_beard_bg_block {
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/688820/Frame%2074.png?_t=1681198259");;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: grid;
+    border-radius: 28.2759px;
+    grid-template-columns: 145px auto;
+    position: relative;
+    
+}
+
+.rowenta_tn .for_beard .for_beard_bg_block .for_beard_bg_text {
+    display: grid;
+    gap: 33px;
+    align-items: center;
+    text-align: center;
+    padding: 38px 26px 38px 0 ;
+
+}
+
+
+.rowenta_tn .for_beard .for_beard_bg_block .for_beard_bg_text_img img{
+    width: 145px;
+    position: absolute;
+    left: 7px;
+    bottom: 9px;
+}
+
+.rowenta_tn .for_beard .rowenta_logo{
+    width: 143px;
+    margin: 0 auto;
+}
+
+.rowenta_tn .for_beard h3{
+    font-size: 16px;
+    margin-bottom: 0;
+    background: radial-gradient(50% 138.44% at 50% 50%, #E4E4E4 0%, #95999C 100%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width:359px) {
+    .rowenta_tn .for_beard{
+        padding: 40px 16px 0;
+    }
+
+    .rowenta_tn .for_beard .for_beard_bg_block .for_beard_bg_text_img img{
+        width: 100%;    
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+    .rowenta_tn .for_beard .for_beard_bg_block {
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:666px) {
+
+    .rowenta_tn .for_beard .for_beard_bg_block {
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/688820/image%2022.png?_t=1681198260");;
+        grid-template-columns: none;
+    }
+
+    .rowenta_tn .for_beard .rowenta_logo{
+        width: 196px;
+        margin: 0 auto;
+    }
+
+    .rowenta_tn .for_beard .for_beard_bg_block .for_beard_bg_text {
+        gap: 46px;
+        align-items: center;
+        text-align: center;
+        padding: 52px 0 52px;
+    }
+
+    .rowenta_tn .for_beard{
+        padding: 85px 24px 0;    
+    }
+    .rowenta_tn .for_beard h3{
+        font-size: 23px;
+    }
+    .rowenta_tn .for_beard .for_beard_bg_block .for_beard_bg_text_img img{
+        width: 199px;
+        left: 32px;
+        bottom: 14px;
+    }
+
+}
+
+
+/* <!-- detailing --> */
+.rowenta_tn .detailing{
+    padding: 40px 16px;
+
+}
+
+
+@media screen and (min-width:666px) {
+    .rowenta_tn .detailing{
+        text-align: center;
+        padding: 60px 24px;
+
+    }
+}
+
+/* block_img */
+
+
+.rowenta_tn .block_img{
+    padding: 0 16px;
+    display: grid;
+    gap:40px ;
+}
+
+@media screen and (min-width:666px) {
+    .rowenta_tn .block_img{
+        padding: 0 65px 0 24px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 99px;
+    }
+}
+
+
+
+/* rowenta_virtuo */
+
+.rowenta_tn .rowenta_virtuo{
+    padding: 40px 16px;
+}
+
+.rowenta_tn .rowenta_virtuo h3{
+font-size: 24px;
+text-align: center;
+line-height: 28px;
+margin-bottom: 0;
+
+}
+
+
+@media screen and (min-width:666px) {
+    .rowenta_tn .rowenta_virtuo{
+        padding: 60px 35px;
+    }
+    .rowenta_tn #rowenta_virtuo_br{
+        display: none;
+    }
+
+
+}
+
+/* engine */
+
+.rowenta_tn .engine{
+    padding: 0 16px;
+}
+
+.rowenta_tn .engine .engine_block{
+    display: grid;
+    border-radius: 28.2759px;
+    gap: 16px;
+    padding: 16px 62px 16px 16px;
+    text-align: left;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/688820/image%2032.png?_t=1681198262");
+}
+
+.rowenta_tn .engine .engine_block img{
+    width: 80px;
+}
+
+.rowenta_tn .engine .engine_block p{
+    color: #FFFFFF;
+}
+
+@media screen and (min-width:666px) {
+    .rowenta_tn .engine .engine_block{
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/688820/image%2026.png?_t=1681198261");
+    padding: 49.5px 341px 49.5px 38px;
+    gap: 22px;
+
+    }
+    .rowenta_tn .engine{
+        padding: 0 24px;
+    }
+
+    .rowenta_tn .engine .engine_block img{
+        width: 114px;
+    }
+ 
+
+}
+
+
+
+
+/* length_control */
+
+
+.rowenta_tn .length_control{
+    padding: 40px 16px 40px;
+    text-align: left;
+}
+
+@media screen and (min-width:666px) {
+    .rowenta_tn .length_control{
+        padding: 60px 24px;
+        text-align: center;
+    }
+
+}
+
+/* stainless_steel */
+
+.rowenta_tn .stainless_steel{
+    padding: 0 16px;
+}
+
+.rowenta_tn .stainless_steel .stainless_steel_block{
+    background-image: url('https://i.citrus.world/uploads/content/product-photos/kirsh/688820/image%2031.png?_t=1681198262');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    border-radius: 28.2759px;
+    gap: 16px;
+    padding: 28.5px 16px 28.5px 140px;
+    text-align: right;
+}
+.rowenta_tn .stainless_steel img{
+    width: 82px;
+    margin-left: auto;
+}
+.rowenta_tn .stainless_steel p{
+    color: #FFFFFF;
+}
+
+@media screen and (min-width:666px) {
+    .rowenta_tn .stainless_steel{
+        padding: 0 24px 50px;
+    }
+    .rowenta_tn .stainless_steel .stainless_steel_block{
+        gap: 22px;
+        padding:45.5px 38px 45.5px 520px ;
+        background-image: url('https://i.citrus.world/uploads/content/product-photos/kirsh/688820/image%2028.png?_t=1681198261');
+    }
+    .rowenta_tn .stainless_steel img{
+        width: 114px;
+    }
+
+}
+
+
+
+
+/* rowenta_block_left rowenta_block_right */
+ .rowenta_tn .rowenta_block_left{
+    padding: 40px 16px;
+    display: grid;
+    gap: 16px;
+    text-align: left;
+ }
+
+ .rowenta_tn .rowenta_block_right{
+    padding: 0 16px;
+    display: grid;
+    gap: 16px;
+    text-align: left;
+ }
+
+ .rowenta_tn .footnote{
+    font-size: 12px;
+    color:#999999 ;
+    margin-top: 8px;
+ }
+
+ .rowenta_tn .rowenta_last_block{
+    padding-bottom: 40px;
+ }
+
+
+@media screen and (min-width:666px) {
+    .rowenta_tn .rowenta_block_left,
+    .rowenta_tn .rowenta_block_right{
+        align-items: center;
+    }
+
+    .rowenta_tn .rowenta_block_left{
+        padding:25px 58px 25px 24px;
+        grid-template-columns: 40% 60%;
+
+        gap: 58px;
+    }
+    .rowenta_tn .rowenta_block_right{
+        padding:0 24px 0 58px;
+        grid-template-columns: 60% 40%;
+
+        gap: 58px;
+
+    }
+
+    .rowenta_tn .rowenta_block_right img{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .rowenta_tn .footnote{
+        font-size: 14px;
+
+    }
+
+}
